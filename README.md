@@ -2,6 +2,9 @@
 A simple node.js application with CRUD operation.
 
 
+# ER Diagram
+<img src="https://user-images.githubusercontent.com/34596279/60685813-da9bd300-9ec2-11e9-910a-57f93f99a480.png" width="80%" />
+
 
 ## Software Requirements
 * [Node v8.12.0](https://nodejs.org/en/) (Recommended).
