@@ -1,0 +1,14 @@
+{
+  "app_info": {
+    "APP_NAME": "CRUDNode",
+    "AUTHOR_NAME": "Monish Akram",
+    "AUTHOR_EMAIL": "monishakram123@gmail.com",
+    "REPO": "https://github.com/MonishAkram123/CRUDNode",
+    "CREATED": "05/07/2019"
+  },
+  "routes": {
+    "MAIN": "/",
+    "HOME": "/home",
+    "ENVIRONMENT": "/env"
+  }
+}

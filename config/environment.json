@@ -1,0 +1,11 @@
+{
+	"development": {
+		"config_id": "development",
+		"app_name": "CRUD Node",
+		"node_port": 3000
+	},
+	"testing": {
+		"config_id": "testing",
+		"node_port": 4000
+	}
+}
