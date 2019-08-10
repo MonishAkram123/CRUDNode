@@ -2,10 +2,12 @@
 	"development": {
 		"config_id": "development",
 		"app_name": "CRUD Node",
-		"node_port": 3000
+		"node_port": 3000,
+		"db": "crudnode"
 	},
 	"testing": {
 		"config_id": "testing",
-		"node_port": 4000
+		"node_port": 4000,
+		"db": "test_node"
 	}
 }

@@ -1,0 +1,38 @@
+{
+  "student": {
+    "SCHEMA_NAME": "StudentSchema",
+    "MODEL": "Student",
+    "fields": {
+      "FIELD_ROLL_NO": "rollNo",
+      "FIELD_NAME": "name",
+      "FIELD_NAME_FIRST": "firstname",
+      "FIELD_NAME_LAST": "lastname",
+      "FIELD_DOB": "dob",
+      "FIELD_ADDRESS": "address",
+      "FIELD_ADD_CITY": "city",
+      "FIELD_ADD_STATE": "state",
+      "FIELD_ADD_PINCODE": "pincode",
+      "FIELD_CONTACT": "contact"
+    }
+  },
+  "enrollment": {
+    "SCHEMA_NAME": "EnrollmentSchema",
+    "MODEL": "Enrollment",
+    "fields": {
+      "FIELD_ROLL_NO": "rollNo",
+      "FIELD_COURSE_ID": "courseId",
+      "FIELD_DATE": "datOfEnroll"
+    }
+  },
+  "course": {
+    "SCHEMA_NAME": "CourseSchema",
+    "MODEL": "Course",
+    "fields": {
+      "FIELD_ID": "id",
+      "FIELD_TITLE": "title",
+      "FIELD_CREATED": "createdOn",
+      "FIELD_PRICE": "price",
+      "FIELD_DURATION": "duration"
+    }
+  }
+}
