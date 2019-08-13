@@ -10,15 +10,13 @@
     "MAIN": "/",
     "HOME": "/home",
     "ENVIRONMENT": "/env",
+    "ADMIN": "/admin",
     "COURSES": "/courses",
     "COURSE": "/course",
-    "ADD_COURSE": "/course/add",
-    "EDIT_COURSE": "/course",
-    "UPDATE_COURSE": "/course/update",
-    "DELETE_COURSE": "/course/delete",
     "STUDENTS": "/students",
     "STUDENT": "/student",
-    "ADD_STUDENT": "/student/add",
-    "ADMIN": "/admin"
+    "ADD": "/add",
+    "DELETE": "/delete",
+    "UPDATE": "/update"
   }
 }

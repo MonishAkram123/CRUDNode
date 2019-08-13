@@ -1,5 +1,5 @@
 const express = require("express");
-const adminRoutes = require("./admin.js");
+const adminRoutes = require("./admin/");
 const envRoutes = require("./env.js");
 const constants = require("../constants/application.json");
 

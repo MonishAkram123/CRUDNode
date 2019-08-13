@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <form action="{{UPDATE_STUDENT_ROUTE}}/{{student._id}}" method="post">
+      <input type="text" name="rollNo" placeholder="roll number" value="{{student.rollNo}}" required><br>
+      <input type="text" name="firstname" placeholder="first name" value="{{student.firstname}}" required><br>
+      <input type="text" name="lastname" placeholder="last name" value="{{student.lastname}}" required><br>
+      <input type="text" name="contact" placeholder="contact" value="{{student.contact}}" required><br>
+      <input type="text" name="dob" placeholder="Date of Birth" value="{{student.dob}}" required><br>
+      <input type="text" name="city" placeholder="city" value="{{student.city}}" required><br>
+      <input type="text" name="state" placeholder="State" value="{{student.state}}" required><br>
+      <input type="text" name="pincode" placeholder="PinCode" value="{{student.pincode}}" required><br>
+      <button type="submit">update</button>
+      <button type="cancel">cancel</button>
+    </form>
+    <form action="{{DELETE_STUDENT_ROUTE}}/{{student._id}}" method="post">
+      <button type="submit">delete</button>
+    </form>
+  </body>
+</html>
