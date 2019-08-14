@@ -28,24 +28,25 @@ Step 4: Add Database details in config/keys.json
 	{
 		"database": {
 			<db>: {
-		        "db_name": <db_name>,
+		    "db_name": <db_name>,
 				"host": <host_name>,
 				"user": <user_name>,
 				"pwd": <password>
 			}
+		}
 	}
 example:
 
 	{
 		"database": {
 			"crudnode": {
-			    "db_name": "CRUDNode",
+				"db_name": "CRUDNode",
 				"host": "localhost:27017",
 				"user": "user1",
 				"pwd": "pass1234"
 			},
 			"test_node": {
-		        "db_name": "test_node",
+		  	"db_name": "test_node",
 				"host": "localhost:27017",
 				"user": "testUser1",
 				"pwd": "testPassword"

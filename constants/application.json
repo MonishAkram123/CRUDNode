@@ -17,6 +17,10 @@
     "STUDENT": "/student",
     "ADD": "/add",
     "DELETE": "/delete",
-    "UPDATE": "/update"
+    "UPDATE": "/update",
+    "LOGIN": "/login",
+    "LOGOUT": "/logout",
+    "LOGIN_SUCCESS": "/",
+    "LOGIN_FALIURE": "/login"
   }
 }
